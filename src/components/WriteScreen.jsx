@@ -10,7 +10,7 @@ export default function WriteScreen({ category, onSubmit, onBack }) {
   };
 
   return (
-    <div className="flex flex-col h-full px-6 pt-16 pb-24 relative">
+    <div className="flex flex-col h-full px-6 pt-16 pb-40 relative">
       {/* Category gradient wash at top */}
       <div
         className="absolute top-0 left-0 right-0 h-48 pointer-events-none"
@@ -68,7 +68,7 @@ export default function WriteScreen({ category, onSubmit, onBack }) {
       </div>
 
       {/* Let Go button */}
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-8 relative z-50">
         <button
           onClick={handleSubmit}
           disabled={message.trim().length === 0}
