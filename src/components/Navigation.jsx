@@ -34,7 +34,7 @@ export default function Navigation({ currentScreen, onNavigate }) {
 function PenIcon({ active }) {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"
-      style={{ color: active ? '#e8e0d4' : '#3a352f', filter: active ? 'drop-shadow(0 0 4px rgba(232,224,212,0.3))' : 'none' }}>
+      style={{ color: active ? '#e8e0d4' : '#6a6358', filter: active ? 'drop-shadow(0 0 4px rgba(232,224,212,0.3))' : 'none' }}>
       <path d="M12 20h9" />
       <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
     </svg>
@@ -44,7 +44,7 @@ function PenIcon({ active }) {
 function SkyIcon({ active }) {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"
-      style={{ color: active ? '#e8e0d4' : '#3a352f', filter: active ? 'drop-shadow(0 0 4px rgba(232,224,212,0.3))' : 'none' }}>
+      style={{ color: active ? '#e8e0d4' : '#6a6358', filter: active ? 'drop-shadow(0 0 4px rgba(232,224,212,0.3))' : 'none' }}>
       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
     </svg>
   );
@@ -53,7 +53,7 @@ function SkyIcon({ active }) {
 function WaveIcon({ active }) {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"
-      style={{ color: active ? '#e8e0d4' : '#3a352f', filter: active ? 'drop-shadow(0 0 4px rgba(232,224,212,0.3))' : 'none' }}>
+      style={{ color: active ? '#e8e0d4' : '#6a6358', filter: active ? 'drop-shadow(0 0 4px rgba(232,224,212,0.3))' : 'none' }}>
       <path d="M2 12c2-2.67 4-4 6-4s4 2.67 6 4 4 4 6 4 4-1.33 6-4" />
       <path d="M2 6c2-2.67 4-4 6-4s4 2.67 6 4 4 4 6 4 4-1.33 6-4" />
       <path d="M2 18c2-2.67 4-4 6-4s4 2.67 6 4 4 4 6 4 4-1.33 6-4" />

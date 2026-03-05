@@ -6,8 +6,8 @@
   --bg-deep: #0a0e1a;
   --bg-mid: #0d1225;
   --text-primary: #e8e0d4;
-  --text-secondary: #9a9088;
-  --text-dim: #5a534d;
+  --text-secondary: #c4b8ac;
+  --text-dim: #8a7f75;
 
   --lost-primary: #D4941C;
   --lost-secondary: #F5C862;
@@ -77,8 +77,8 @@ textarea::placeholder {
 }
 
 @keyframes ember-glow {
-  0%, 100% { opacity: 0.25; }
-  50% { opacity: 0.45; }
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 0.85; }
 }
 
 @keyframes gentle-drift {

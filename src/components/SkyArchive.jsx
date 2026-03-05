@@ -170,7 +170,7 @@ export default function SkyArchive({ lanterns, archiveUnlocked, onUnlock }) {
       {/* Archive gate */}
       {!archiveUnlocked && lanterns.length > 0 && (
         <div
-          className="absolute bottom-20 left-0 right-0 flex flex-col items-center gap-4 px-8"
+          className="absolute bottom-24 left-0 right-0 flex flex-col items-center gap-4 px-8"
           style={{ opacity: 0.8 }}
         >
           <p

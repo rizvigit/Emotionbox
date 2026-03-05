@@ -10,7 +10,7 @@ export default function WriteScreen({ category, onSubmit, onBack }) {
   };
 
   return (
-    <div className="flex flex-col h-full px-6 pt-16 pb-8 relative">
+    <div className="flex flex-col h-full px-6 pt-16 pb-24 relative">
       {/* Category gradient wash at top */}
       <div
         className="absolute top-0 left-0 right-0 h-48 pointer-events-none"
@@ -22,7 +22,7 @@ export default function WriteScreen({ category, onSubmit, onBack }) {
       {/* Back button */}
       <button
         onClick={onBack}
-        className="absolute top-5 left-5 text-sm opacity-30 hover:opacity-50 transition-opacity duration-500"
+        className="absolute top-5 left-5 text-sm opacity-50 hover:opacity-70 transition-opacity duration-500"
         style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--text-secondary)' }}
       >
         &larr; back
@@ -33,7 +33,7 @@ export default function WriteScreen({ category, onSubmit, onBack }) {
         className="text-sm mb-8 text-center"
         style={{
           color: category.secondary,
-          opacity: 0.7,
+          opacity: 0.85,
           fontFamily: "'Cormorant Garamond', serif",
           letterSpacing: '0.06em',
         }}
